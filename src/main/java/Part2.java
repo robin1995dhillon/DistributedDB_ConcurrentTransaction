@@ -17,7 +17,6 @@ class LockThread{
 
             }
             else if(!map.get(table).equalsIgnoreCase(Thread.currentThread().getName())){
-
                 continue;
             }
 

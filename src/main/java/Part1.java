@@ -25,9 +25,7 @@ class Transaction {
             stmt1.executeUpdate(updateT1);
             stmt2.executeUpdate(update);
             t2.commit();
-            System.out.println("t2 commit done");
             t1.commit();
-            System.out.println("t1 commit done");
 
         } catch (SQLException e) {
             e.printStackTrace();
